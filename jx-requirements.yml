@@ -6,10 +6,10 @@ spec:
     schedule: ""
   cluster:
     chartRepository: http://bucketrepo.jx.svc.cluster.local/bucketrepo/charts
-    clusterName: todo
+    clusterName: mycluster-dal10-b3c.4x16
     devEnvApprovers:
     - todo
-    environmentGitOwner: todo
+    environmentGitOwner: narendra-ch-os
     gitKind: github
     gitName: github
     gitServer: https://github.com
@@ -20,7 +20,7 @@ spec:
   - key: staging
   - key: production
   ingress:
-    domain: ""
+    domain: "mycluster-dal10-b3-863626-560f6f5e338640cda943b314d2536ac3-0000.us-south.containers.appdomain.cloud"
     externalDNS: false
     namespaceSubDomain: -jx.
     tls:
